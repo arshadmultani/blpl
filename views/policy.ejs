@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refund Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4; /* Light background color */
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            color: BLACK;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        h1::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 2px;
+            margin: 10px auto 0;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: black;
+            margin-top: 20px;
+            border-bottom: 2px solid #0044cc;
+            padding-bottom: 5px;
+        }
+
+        p {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 40px; /* Increased padding for list items */
+            margin-bottom: 20px; /* Added margin for better spacing */
+        }
+
+        li {
+            margin-bottom: 10px;
+            list-style-type: disc;
+        }
+
+        .note {
+            margin-top: 0;
+            padding-top: 0;
+            font-style: italic;
+            color: #555;
+        }
+
+        .underline {
+            font-weight: bold;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <%- include('parts/header' )%>
+    <style>
+        .transparent-header-inner {
+            /* background: #69bf6f; */
+            background: #FFF;
+
+        }
+    </style>
+    <style>
+        .display-flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .secure-hidden-items {
+            display: none;
+        }
+
+        .unsecure-hidden-items {
+            display: none;
+        }
+
+        .project-hidden-items {
+            display: none;
+        }
+
+        #project-less-btn {
+            display: none;
+        }
+
+        .tool-hidden-items {
+            display: none;
+        }
+
+        #tool-less-btn {
+            display: none;
+        }
+
+        .insurance-hidden-items {
+            display: none;
+        }
+
+        #insurance-less-btn {
+            display: none;
+        }
+
+        .personal-hidden-items {
+            display: none;
+        }
+
+        #personal-less-btn {
+            display: none;
+        }
+
+        #secure-less-btn {
+            display: none;
+        }
+
+        #unsecure-less-btn {
+            display: none;
+        }
+    </style>
+    <div class="container">
+        <h1 style="text-align: center;">Refund Policy</h1>
+        <p>When a payment of fee is made to BLPL Finserv, the fees paid in advance is retained by BLPL Finserv in a client account. BLPL Finserv will earn the fees upon working on a client’s matter. Refund cannot be provided for earned fee because resources and man hours spent on delivering the service are non-returnable in nature. Further, we can’t refund or credit any money paid to government entities such as taxes, or to other third parties with a role in processing your order. Refund request can be initiated through info@Blplfinserv.in. All refund requests must be made within 14 days of purchase. We will process your request within 3 to 5 business days of receiving all the information required for processing refund like reason for refund, bank details for processing request, etc.<br> Refund will be issued for the following only :</p>
+        <ul>
+            <p>Any mistake in the procedure from our side</p>
+            <p>Any error which cannot be edited</p>
+        </ul>
+        <p class="note">Note: Refund is not applicable to delay in starting the business, change of mind, switching to new venture, rejection of loan, and all other factors except the above-mentioned terms.</p>
+        <p class="underline">Refund and Cancellation Policy</p>
+        <p>At BLPL Finserv, we take pride in the services delivered by us and guarantee your satisfaction with our services and support. We constantly improve and strive to deliver the best project report creation, CMA Data preparation, and other credit report-related services.</p>
+        <p>However, in case you are not satisfied with our services, please contact us immediately (within 14 days) and we will correct the situation, provide a refund or offer credit that can be used for future BLPL Finserv orders.</p>
+        <p class="underline">Cancellation Policy</p>
+        <p>Since we are incurring costs and dedicating time, manpower, technology resources, and effort to your service or document preparation, our guarantee only covers satisfaction issues caused by BLPL Finserv – not changes to your situation or your state of mind. In case you require us to hold the processing of an assisted service, we will hold the fee paid on your account until you are ready to commence the assisted service. Before processing any refund, we reserve the right to make best effort to complete the service. In case, you are not satisfied with the service, a cancellation fee of 50% would be applicable.</p>
+    </div>
+    <style>
+        .container {
+            max-width: 800px; /* Adjust as needed */
+            margin: 0 auto; /* Centers the container */
+            padding: 20px; /* Adds padding around the content */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+        }
+        
+        h1, p, ul {
+            text-align: left; /* Align text to the left */
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px; /* Less padding on smaller screens */
+            }
+        }
+        
+    </style>
+    <%- include('parts/footer') %>
+
+</body>
+</html>
